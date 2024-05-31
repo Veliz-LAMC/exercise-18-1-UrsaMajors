@@ -39,17 +39,24 @@
     				<img src="images/brancaccio75.jpg" alt=""></a></li>
     			<li><a href="images/sorkin_desk260.jpg" title="Andrew Ross Sorkin">
     				<img src="images/sorkin75.jpg" alt=""></a></li>
-    			<li><a href="images/chua_220.jpg" >
+    			<li><a href="images/chua_220.jpg" title="Amy Chua">
     				<img src="images/chua75.jpg" alt=""></a></li>
     			<li><a href="images/sampson_dinosaur.jpg" title="Scott Sampson">
     				<img src="images/sampson75.jpg" alt=""></a></li>
   			</ul>
-  			<h2>David Brancaccio</h2>
-  			<p><img src="images/brancaccio_EEC.jpg" alt=""></p>
+  			<h2 id="caption">David Brancaccio</h2>
+  			<p><img src="images/brancaccio_EEC.jpg" alt="" id="image"></p>
 		</section>
 	</main>
 	<footer>
-  		<p>&copy; 2016, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+        <p>
+            <script>
+                var year = new Date();
+                document.write("&copy;&nbsp");
+                document.write(year.getFullYear());
+                document.write(", San Joaquin Valley Town Hall, Fresno, CA 93755")
+            </script>
+        </p>
 	</footer>
 </body>
 </html>
